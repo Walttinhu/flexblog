@@ -24,3 +24,20 @@ img {
 * {
 	box-sizing: border-box;
 }
+
+/* fade-in / slide-up */
+
+
+
+.fade-in-item {
+  opacity: 0;
+  transform: translateY(30px); 
+  transition: opacity 1s ease, transform 1s ease; 
+}
+
+
+.fade-in-item.visible {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
